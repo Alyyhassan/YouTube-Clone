@@ -57,15 +57,11 @@
   color: white;
   right: 8px;
   bottom: 8px;
-  font-family: Roboto, Arial ;
   font-size: 14px;
   font-weight: 500;
-  padding-left: 4px;
-  padding-right: 4px;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding: 4px;
   border-radius: 2px;
-  
+
   
 }
 
@@ -84,12 +80,30 @@
 
 .video-main-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr ;
   column-gap: 16px;
   row-gap: 40px;
-
-
 }
+
+@media (max-width: 750px) {
+  .video-main-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 751px) and (max-width: 999px) {
+  .video-main-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .video-main-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+
+
 .notification-icon-container {
   position: relative;
 

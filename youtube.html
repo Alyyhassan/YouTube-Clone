@@ -12,24 +12,21 @@
     <link rel="stylesheet" href="styles/sidebar.css">
   </head>
 
-
   <body>  
-
-
-    <div class="header">
+    <header class="header">
       <div class="left-section"> 
         <img class="hamburger-class" src="icons/hamburger-menu.svg">
         <img class="youtube-logo" src="icons/youtube-logo.svg">
       </div>
 
-    
       <div class="center-section">
         <input class="search-box" type="text" placeholder="Search">
         <button class="search-button"> 
           <img class="search-icon" src="icons/search.svg">
           <div class="tooltip1">Search</div>
         </button>
-
+        <!-- Put Position absolute inside 
+         position relative -->
         <button class="voice-icon-button">
           <img class="voice-search-icon" src="icons/voice-search-icon.svg">
           <div class="tooltip2">Search with your Voice</div>
@@ -53,12 +50,11 @@
             3
           </div>
         </div>
-        
         <img class="current-user-picture" src="channel-pics/myprofile.jpg">
       </div>
-    </div>
+    </header>
 
-    <div class="sidebar">
+    <nav class="sidebar">
       <div class="sidebar-link">
         <img src="icons/home.svg">
         Home
@@ -88,301 +84,298 @@
         <img src="icons/library.svg">
         Library
       </div>
+    </nav>
+
+    <main>
+      <section class="video-main-grid">
+        <div class="video-preview">
+          <a class="thumbnail-row" href="https://youtu.be/-swcGP7bXyo?si=9-EoTS3vBgFDJjBJ">
+            <img class="thumbnail" src="thumbnails/palmer.avif">
+          <div class="video-time">0:39</div>
+        </a>
+          <div class="video-info-grid">
+          <a class="channel-picture" href="https://www.youtube.com/@Aether_ru">  
+            <img class="profile-picture" src="channel-pics/pfp1.jpg">
+          </a>
+          <div class="video-info">
   
-    </div>
-
-
-    <div class="video-main-grid">
-      <div class="video-preview">
-        <a class="thumbnail-row" href="https://youtu.be/-swcGP7bXyo?si=9-EoTS3vBgFDJjBJ">
-          <img class="thumbnail" src="thumbnails/palmer.avif">
-        <div class="video-time">0:39</div>
-      </a>
-        <div class="video-info-grid">
-        <a class="channel-picture" href="https://www.youtube.com/@Aether_ru">  
-          <img class="profile-picture" src="channel-pics/pfp1.jpg">
-        </a>
-        <div class="video-info">
-
-          <a class="video-title" href="https://youtu.be/-swcGP7bXyo?si=9-EoTS3vBgFDJjBJ">
-          Cole Palmer X Pressure
-        </a>
-          <a class="video-author" href="https://www.youtube.com/@Aether_ru">
-            Aether
+            <a class="video-title" href="https://youtu.be/-swcGP7bXyo?si=9-EoTS3vBgFDJjBJ">
+            Cole Palmer X Pressure
           </a>
-          <p class="video-stats">
-            1.8M views &#xb7; 2 years ago
-          </p> 
+            <a class="video-author" href="https://www.youtube.com/@Aether_ru">
+              Aether
+            </a>
+            <p class="video-stats">
+              1.8M views &#xb7; 2 years ago
+            </p> 
+          </div>
+          </div>
         </div>
   
-        </div>
-      </div>
-
-
-      <div class="video-preview">
-        <a class="thumbnail-row" href="https://youtu.be/DAGIiyKaXSk?si=GUnmHtsrKy5Ylxjo">
-          <img class="thumbnail" src="thumbnails/zedan.avif">
-          <div class="video-time">11:27</div>
-        </a>
-        <div class="video-info-grid">
-        <a class="channel-picture" href="https://www.youtube.com/@ZedanMutlu-71011">
-          <img class="profile-picture" src="channel-pics/pfp2.jpg">
-        </a> 
-        <div class="video-info">
-          <a class="video-title" href="https://youtu.be/DAGIiyKaXSk?si=GUnmHtsrKy5Ylxjo"> 
-            Win Your Dream Life With The Law of Attraction (Logically)
+  
+        <div class="video-preview">
+          <a class="thumbnail-row" href="https://youtu.be/DAGIiyKaXSk?si=GUnmHtsrKy5Ylxjo">
+            <img class="thumbnail" src="thumbnails/zedan.avif">
+            <div class="video-time">11:27</div>
           </a>
-          <a class="video-author" href="https://www.youtube.com/@ZedanMutlu-71011">
-            Zedan Matlu
+          <div class="video-info-grid">
+          <a class="channel-picture" href="https://www.youtube.com/@ZedanMutlu-71011">
+            <img class="profile-picture" src="channel-pics/pfp2.jpg">
+          </a> 
+          <div class="video-info">
+            <a class="video-title" href="https://youtu.be/DAGIiyKaXSk?si=GUnmHtsrKy5Ylxjo"> 
+              Win Your Dream Life With The Law of Attraction (Logically)
+            </a>
+            <a class="video-author" href="https://www.youtube.com/@ZedanMutlu-71011">
+              Zedan Matlu
+            </a>
+            <p class="video-stats">
+              73K views &#xb7; 1 month ao
+            </p> 
+          </div>
+          </div>
+        </div>
+    
+        
+        <div class="video-preview">
+          <a class="thumbnail-row" href="https://www.youtube.com/watch?v=2UyUErNf9g4">
+            <img class="thumbnail" src="thumbnails/SODMG.jpg">
+            <div class="video-time">2:23</div>
           </a>
-          <p class="video-stats">
-            73K views &#xb7; 1 month ao
-          </p> 
+          <div class="video-info-grid">
+          <a class="channel-picture" href="https://www.youtube.com/@sodmgfighters">
+            <img class="profile-picture" src="channel-pics/pfp3.jpg">
+          </a> 
+          <div class="video-info">
+            <a class="video-title" href="https://www.youtube.com/watch?v=2UyUErNf9g4">
+             Soulja Boy hears his song on the radio in GTAV
+            </a>
+            <a class="video-author" href="https://www.youtube.com/@sodmgfighters">
+              SODMG Fighters - Topic
+            </a>
+            <p class="video-stats">
+              2.7M views &#xb7; 4 year ago
+            </p> 
+          </div>
+          </div>
         </div>
+    
+    
+        <div class="video-preview">
+          <a class="thumbnail-row" href="https://www.youtube.com/watch?v=u484hXaYqqU&t=58s">
+            <img class="thumbnail" src="thumbnails/marlon.avif">
+            <div class="video-time">10:20</div>
+          </a>
+          <div class="video-info-grid">
+          <a class="channel-picture" href="https://www.youtube.com/@Mar3LG" >
+            <img class="profile-picture" src="channel-pics/pfp4.jpg">
+          </a>
+          <div class="video-info">
+            <a class="video-title" href="https://www.youtube.com/watch?v=u484hXaYqqU&t=58s">
+              Revealing My $350, 000 CUSTOM BRABUS MERCEDES CLE63 AMG!
+            </a>
+            <a class="video-author" href="https://www.youtube.com/@Mar3LG">
+              Marlon
+            </a>
+            <p class="video-stats">
+              244K views &#xb7; 12 days ago
+            </p> 
+          </div>
+          </div>
         </div>
-      </div>
+    
+  
+        <div class="video-preview">
+          <a class="thumbnail-row" href="https://www.youtube.com/watch?v=FPm-A8i2Qms&t=4s">
+            <img class="thumbnail" src="thumbnails/Highschool.avif">
+            <div class="video-time">1:16:25</div>
+          </a>
+          <div class="video-info-grid">
+          <a class="channel-picture" href="https://www.youtube.com/@HollowPoiint">
+            <img class="profile-picture" src="channel-pics/pfp5.jpg">
+          </a>
+          <div class="video-info">
+            <a class="video-title" href="https://www.youtube.com/watch?v=FPm-A8i2Qms&t=4s">
+              Welcome To Agefield High Rock The School...
+            </a>
+            <a class="video-author" href="https://www.youtube.com/@HollowPoiint">
+              Hollow
+            </a>
+            <p class="video-stats">
+              519K views &#xb7; 5 years ago
+            </p> 
+          </div>
+          </div>
+        </div>
   
       
-      <div class="video-preview">
-        <a class="thumbnail-row" href="https://www.youtube.com/watch?v=2UyUErNf9g4">
-          <img class="thumbnail" src="thumbnails/SODMG.jpg">
-          <div class="video-time">2:23</div>
-        </a>
-        <div class="video-info-grid">
-        <a class="channel-picture" href="https://www.youtube.com/@sodmgfighters">
-          <img class="profile-picture" src="channel-pics/pfp3.jpg">
-        </a> 
-        <div class="video-info">
-          <a class="video-title" href="https://www.youtube.com/watch?v=2UyUErNf9g4">
-           Soulja Boy hears his song on the radio in GTAV
+        <div class="video-preview">
+          <a class="thumbnail-row" href="https://www.youtube.com/watch?v=u7JcFm3oZoc&t=408s">
+            <img class="thumbnail" src="thumbnails/messi.avif">
+            <div class="video-time">33:17</div>
           </a>
-          <a class="video-author" href="https://www.youtube.com/@sodmgfighters">
-            SODMG Fighters - Topic
+          <div class="video-info-grid">
+          <a class="channel-picture" href="https://www.youtube.com/@henriklehmannn">
+            <img class="profile-picture" src="channel-pics/pfp6.jpg">
           </a>
-          <p class="video-stats">
-            2.7M views &#xb7; 4 year ago
-          </p> 
+          <div class="video-info">
+            <a class="video-title" href="https://www.youtube.com/watch?v=u7JcFm3oZoc&t=408s">
+              MESSIAH - A Lionel Messi Movie
+            </a>
+            <a class="video-author" href="https://www.youtube.com/@henriklehmannn">
+              Henrik Lehmann
+            </a>
+            <p class="video-stats">
+              5.4M views &#xb7; 2 year ago
+            </p> 
+          </div>
+          </div>
         </div>
-        </div>
-      </div>
   
   
-      <div class="video-preview">
-        <a class="thumbnail-row" href="https://www.youtube.com/watch?v=u484hXaYqqU&t=58s">
-          <img class="thumbnail" src="thumbnails/marlon.avif">
-          <div class="video-time">10:20</div>
-        </a>
-        <div class="video-info-grid">
-        <a class="channel-picture" href="https://www.youtube.com/@Mar3LG" >
-          <img class="profile-picture" src="channel-pics/pfp4.jpg">
-        </a>
-        <div class="video-info">
-          <a class="video-title" href="https://www.youtube.com/watch?v=u484hXaYqqU&t=58s">
-            Revealing My $350, 000 CUSTOM BRABUS MERCEDES CLE63 AMG!
+        <div class="video-preview">
+          <a class="thumbnail-row" href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22103s">
+            <img class="thumbnail" src="thumbnails/course.avif">
+            <div class="video-time">6:31:15</div>
           </a>
-          <a class="video-author" href="https://www.youtube.com/@Mar3LG">
-            Marlon
+          <div class="video-info-grid">
+          <a class="channel-picture" href="https://www.youtube.com/@SuperSimpleDev">
+            <img class="profile-picture" src="channel-pics/pfp7.jpg">
           </a>
-          <p class="video-stats">
-            244K views &#xb7; 12 days ago
-          </p> 
+          <div class="video-info">
+            <a class="video-title" href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22103s">
+            HTML & CSS Full Course- Beginner to Pro
+          </a>
+            <a class="video-author" href="https://www.youtube.com/@SuperSimpleDev">
+              SuperSimpleDev
+            </a>
+            <p class="video-stats">
+              19M views &#xb7; 4 year ago
+            </p> 
+          </div>
+          </div>
         </div>
-        </div>
-      </div>
   
-
-      <div class="video-preview">
-        <a class="thumbnail-row" href="https://www.youtube.com/watch?v=FPm-A8i2Qms&t=4s">
-          <img class="thumbnail" src="thumbnails/Highschool.avif">
-          <div class="video-time">1:16:25</div>
-        </a>
-        <div class="video-info-grid">
-        <a class="channel-picture" href="https://www.youtube.com/@HollowPoiint">
-          <img class="profile-picture" src="channel-pics/pfp5.jpg">
-        </a>
-        <div class="video-info">
-          <a class="video-title" href="https://www.youtube.com/watch?v=FPm-A8i2Qms&t=4s">
-            Welcome To Agefield High Rock The School...
+  
+        <div class="video-preview">
+          <a class="thumbnail-row" href="https://www.youtube.com/watch?v=1_Dv6AvFCsE">
+            <img class="thumbnail" src="thumbnails/davidxmarlon.avif">
+            <div class="video-time">38:32</div>
           </a>
-          <a class="video-author" href="https://www.youtube.com/@HollowPoiint">
-            Hollow
+          <div class="video-info-grid">
+          <a class="channel-picture" href="https://www.youtube.com/@Mar3LG">
+            <img class="profile-picture" src="channel-pics/pfp4.jpg">
           </a>
-          <p class="video-stats">
-            519K views &#xb7; 5 years ago
-          </p> 
+          <div class="video-info">
+            <a class="video-title" href="https://www.youtube.com/watch?v=1_Dv6AvFCsE">
+             Marlon X David Laid Posing Session...
+            </a>
+            <a class="video-author" href="https://www.youtube.com/@Mar3LG">
+             Marlon
+            </a>
+            <p class="video-stats">
+              198K views &#xb7; 9 months ago
+            </p> 
+          </div>
+          </div>
         </div>
-        </div>
-      </div>
-
-    
-      <div class="video-preview">
-        <a class="thumbnail-row" href="https://www.youtube.com/watch?v=u7JcFm3oZoc&t=408s">
-          <img class="thumbnail" src="thumbnails/messi.avif">
-          <div class="video-time">33:17</div>
-        </a>
-        <div class="video-info-grid">
-        <a class="channel-picture" href="https://www.youtube.com/@henriklehmannn">
-          <img class="profile-picture" src="channel-pics/pfp6.jpg">
-        </a>
-        <div class="video-info">
-          <a class="video-title" href="https://www.youtube.com/watch?v=u7JcFm3oZoc&t=408s">
-            MESSIAH - A Lionel Messi Movie
+  
+  
+        <div class="video-preview">
+          <a class="thumbnail-row" href="https://www.youtube.com/watch?v=8fV1pxy9nCs">
+            <img class="thumbnail" src="thumbnails/code.avif">
+            <div class="video-time">07:11</div>
           </a>
-          <a class="video-author" href="https://www.youtube.com/@henriklehmannn">
-            Henrik Lehmann
+          <div class="video-info-grid">
+          <a class="channel-picture" href="https://www.youtube.com/@IAmManware">
+            <img class="profile-picture" src="channel-pics/pfp9 (2).jpg">
           </a>
-          <p class="video-stats">
-            5.4M views &#xb7; 2 year ago
-          </p> 
+          <div class="video-info">
+            <a class="video-title" href="https://www.youtube.com/watch?v=8fV1pxy9nCs">
+             How Your Code ACTUALLY Controls Hardware
+            </a>
+            <a class="video-author" href="https://www.youtube.com/@IAmManware">
+              Manware
+            </a>
+            <p class="video-stats">
+              201K views &#xb7; 7 days ago
+            </p> 
+          </div>
+          </div>
         </div>
-        </div>
-      </div>
-
-
-      <div class="video-preview">
-        <a class="thumbnail-row" href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22103s">
-          <img class="thumbnail" src="thumbnails/course.avif">
-          <div class="video-time">6:31:15</div>
-        </a>
-        <div class="video-info-grid">
-        <a class="channel-picture" href="https://www.youtube.com/@SuperSimpleDev">
-          <img class="profile-picture" src="channel-pics/pfp7.jpg">
-        </a>
-        <div class="video-info">
-          <a class="video-title" href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22103s">
-          HTML & CSS Full Course- Beginner to Pro
-        </a>
-          <a class="video-author" href="https://www.youtube.com/@SuperSimpleDev">
-            SuperSimpleDev
+  
+  
+        <div class="video-preview">
+          <a class="thumbnail-row" href="https://www.youtube.com/watch?v=NV3sBlRgzTI">
+            <img class="thumbnail" src="thumbnails/elon.avif">
+            <div class="video-time">2:48</div>
           </a>
-          <p class="video-stats">
-            19M views &#xb7; 4 year ago
-          </p> 
-        </div>
-        </div>
-      </div>
-
-
-      <div class="video-preview">
-        <a class="thumbnail-row" href="https://www.youtube.com/watch?v=1_Dv6AvFCsE">
-          <img class="thumbnail" src="thumbnails/davidxmarlon.avif">
-          <div class="video-time">38:32</div>
-        </a>
-        <div class="video-info-grid">
-        <a class="channel-picture" href="https://www.youtube.com/@Mar3LG">
-          <img class="profile-picture" src="channel-pics/pfp4.jpg">
-        </a>
-        <div class="video-info">
-          <a class="video-title" href="https://www.youtube.com/watch?v=1_Dv6AvFCsE">
-           Marlon X David Laid Posing Session...
+          <div class="video-info-grid">
+          <a class="channel-picture" href="https://www.youtube.com/@innomind">
+            <img class="profile-picture" src="channel-pics/pfp10 (2).jpg">
           </a>
-          <a class="video-author" href="https://www.youtube.com/@Mar3LG">
-           Marlon
+          <div class="video-info">
+            <a class="video-title" href="https://www.youtube.com/watch?v=NV3sBlRgzTI">
+             The First Principles Method Explained by Elon Musk
+            </a>
+            <a class="video-author" href="https://www.youtube.com/@innomind">
+              Innomind
+            </a> 
+            <p class="video-stats">
+              2M views &#xb7; 12 years ago
+            </p> 
+          </div>
+          </div>
+        </div>
+  
+  
+        <div class="video-preview">
+          <a class="thumbnail-row" href="https://www.youtube.com/watch?v=TQHW7gGjrCQ">
+            <img class="thumbnail" src="thumbnails/Speaks.avif">
+            <div class="video-time">05:14</div>
           </a>
-          <p class="video-stats">
-            198K views &#xb7; 9 months ago
-          </p> 
-        </div>
-        </div>
-      </div>
-
-
-      <div class="video-preview">
-        <a class="thumbnail-row" href="https://www.youtube.com/watch?v=8fV1pxy9nCs">
-          <img class="thumbnail" src="thumbnails/code.avif">
-          <div class="video-time">07:11</div>
-        </a>
-        <div class="video-info-grid">
-        <a class="channel-picture" href="https://www.youtube.com/@IAmManware">
-          <img class="profile-picture" src="channel-pics/pfp9 (2).jpg">
-        </a>
-        <div class="video-info">
-          <a class="video-title" href="https://www.youtube.com/watch?v=8fV1pxy9nCs">
-           How Your Code ACTUALLY Controls Hardware
+          <div class="video-info-grid">
+          <a class="channel-picture" href="https://www.youtube.com/@TheCompaniesExpert">
+            <img class="profile-picture" src="channel-pics/pfp11 (2).jpg">
           </a>
-          <a class="video-author" href="https://www.youtube.com/@IAmManware">
-            Manware
+          <div class="video-info">
+            <a class="video-title" href="https://www.youtube.com/watch?v=TQHW7gGjrCQ">
+             Tell Me About Yourself | Best Answer ( from former CEO)
+            </a>
+            <a class="video-author" href="https://www.youtube.com/@TheCompaniesExpert">
+              The Companies Expert
+            </a>
+            <p class="video-stats">
+              9.4M views &#xb7; 7 years ago
+            </p> 
+          </div>
+          </div>
+        </div>
+  
+  
+        <div class="video-preview">
+          <a class="thumbnail-row" href="https://www.youtube.com/watch?v=K0u6xSuwjTo">
+            <img class="thumbnail" src="thumbnails/weapon.avif">
+            <div class="video-time">2:21</div>
           </a>
-          <p class="video-stats">
-            201K views &#xb7; 7 days ago
-          </p> 
-        </div>
-        </div>
-      </div>
-
-
-      <div class="video-preview">
-        <a class="thumbnail-row" href="https://www.youtube.com/watch?v=NV3sBlRgzTI">
-          <img class="thumbnail" src="thumbnails/elon.avif">
-          <div class="video-time">2:48</div>
-        </a>
-        <div class="video-info-grid">
-        <a class="channel-picture" href="https://www.youtube.com/@innomind">
-          <img class="profile-picture" src="channel-pics/pfp10 (2).jpg">
-        </a>
-        <div class="video-info">
-          <a class="video-title" href="https://www.youtube.com/watch?v=NV3sBlRgzTI">
-           The First Principles Method Explained by Elon Musk
+          <div class="video-info-grid">
+          <a class="channel-picture" href="https://www.youtube.com/@heavensdestiny">
+            <img class="profile-picture" src="channel-pics/pfp12.jpg">
           </a>
-          <a class="video-author" href="https://www.youtube.com/@innomind">
-            Innomind
-          </a> 
-          <p class="video-stats">
-            2M views &#xb7; 12 years ago
-          </p> 
+          <div class="video-info">
+            <a class="video-title" href="https://www.youtube.com/watch?v=K0u6xSuwjTo">
+             who's gonna carry the boats?
+            </a>
+            <a class="video-author" href="https://www.youtube.com/@heavensdestiny">
+              heavensent
+            </a>
+            <p class="video-stats">
+              4.8k views &#xb7; 1 day ago
+            </p>
+          </div>
+          </div>
         </div>
-        </div>
-      </div>
-
-
-      <div class="video-preview">
-        <a class="thumbnail-row" href="https://www.youtube.com/watch?v=TQHW7gGjrCQ">
-          <img class="thumbnail" src="thumbnails/Speaks.avif">
-          <div class="video-time">05:14</div>
-        </a>
-        <div class="video-info-grid">
-        <a class="channel-picture" href="https://www.youtube.com/@TheCompaniesExpert">
-          <img class="profile-picture" src="channel-pics/pfp11 (2).jpg">
-        </a>
-        <div class="video-info">
-          <a class="video-title" href="https://www.youtube.com/watch?v=TQHW7gGjrCQ">
-           Tell Me About Yourself | Best Answer ( from former CEO)
-          </a>
-          <a class="video-author" href="https://www.youtube.com/@TheCompaniesExpert">
-            The Companies Expert
-          </a>
-          <p class="video-stats">
-            9.4M views &#xb7; 7 years ago
-          </p> 
-        </div>
-        </div>
-      </div>
-
-
-      <div class="video-preview">
-        <a class="thumbnail-row" href="https://www.youtube.com/watch?v=K0u6xSuwjTo">
-          <img class="thumbnail" src="thumbnails/weapon.avif">
-          <div class="video-time">2:21</div>
-        </a>
-        <div class="video-info-grid">
-        <a class="channel-picture" href="https://www.youtube.com/@heavensdestiny">
-          <img class="profile-picture" src="channel-pics/pfp12.jpg">
-        </a>
-        <div class="video-info">
-          <a class="video-title" href="https://www.youtube.com/watch?v=K0u6xSuwjTo">
-           who's gonna carry the boats?
-          </a>
-          <a class="video-author" href="https://www.youtube.com/@heavensdestiny">
-            heavensent
-          </a>
-          <p class="video-stats">
-            4.8k views &#xb7; 1 day ago
-          </p>
-        </div>
-        </div>
-      </div>
-
-
-    </div>
+      </section>
+    </main>
   </body>
 </html>

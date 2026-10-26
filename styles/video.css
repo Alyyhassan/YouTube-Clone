@@ -19,8 +19,6 @@
 
 }
 .video-preview {
-  
-
  
 }
 .video-info-grid {
@@ -39,8 +37,8 @@
  
 }
 .profile-picture {
-  width: 36px;
-  border-radius: 50px;
+  width: 37px;
+  border-radius: 51px;
   cursor: pointer;
   
 }
@@ -101,8 +99,6 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
-
-
 
 .notification-icon-container {
   position: relative;
